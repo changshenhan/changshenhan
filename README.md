@@ -44,7 +44,7 @@ Contributor to **[ezkl](https://github.com/zkonduit/ezkl)** (zero-knowledge infe
 | [**ezkl-custom-lookup-experiment**](https://github.com/changshenhan/ezkl-custom-lookup-experiment) | Full pipeline: built-in vs. custom PWL Sigmoid lookup; quantile-based breakpoints; ~1.1s prove, verified. |
 | [**zkml_lookup_experiment**](https://github.com/changshenhan/zkml_lookup_experiment) | Sigmoid lookup vs. PLA comparison; metrics and accuracy analysis (e.g. 1–2 orders of magnitude improvement with custom PWL). |
 | [**STIP-MLX**](https://github.com/changshenhan/STIP-MLX) | Secure Tensor Inference Protocol — private LLM inference on Apple Silicon (Qwen2.5-3B); permuted feature space, 8GB-friendly. |
-| [**awesome-zkml**](https://github.com/changshenhan/awesome-zkml) | Curated ZKML resources and references. |
+
 
 ---
 
