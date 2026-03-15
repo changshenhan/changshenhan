@@ -1,16 +1,42 @@
-## Hi there 👋
+# Hi, I'm Chang Shenhan
 
-<!--
-**changshenhan/changshenhan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**ZKML & Privacy-Preserving ML** · Building with zero-knowledge proofs and on-chain verifiable inference.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### About me
+
+- 🔬 Focus: **Zero-Knowledge Machine Learning (ZKML)**, verifiable inference, and lookup-table optimization
+- 🌱 Contributing to [**ezkl**](https://github.com/zkonduit/ezkl) — custom lookup tables for Sigmoid and PWL approximations
+- 📐 Interested in: circuit-friendly activations, fixed-point quantization, and accuracy/soundness in ZK circuits
+- 📫 Reach me: [GitHub discussions](https://github.com/changshenhan) · open to collaboration on ZKML tooling
+
+---
+
+### Tech stack
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+![Halo2](https://img.shields.io/badge/Halo2-ZK_Proofs-8B5CF6?style=flat-square)
+
+`zk-snarks` · `circuit design` · `piecewise-linear approximation` · `quantization`
+
+---
+
+### Featured work
+
+| Project | Description |
+|--------|-------------|
+| [ezkl (fork)](https://github.com/changshenhan/ezkl) | Custom lookup table support for Sigmoid/PWL in ZKML circuits |
+| [ezkl-custom-lookup-experiment](https://github.com/changshenhan/ezkl-custom-lookup-experiment) | Experiments: quantile-based PWL breakpoints, accuracy vs. circuit-size trade-offs |
+
+---
+
+### GitHub stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=changshenhan&show_icons=true&theme=default&hide_border=true&count_private=true)
+
+---
+
+*“Make the circuit match the math.”*
