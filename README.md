@@ -2,7 +2,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=changshenhan&style=flat-square&color=blueviolet)
 
-# Chang Shenhan
+# ChangShen Han
 
 ### *Proof of What Can Be Proven —  Between Circuits and Agents*
 
