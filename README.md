@@ -4,7 +4,7 @@
 
 # Chang Shenhan
 
-### *证明可证明的 — 在电路与 agent 之间*
+### *Proof of What Can Be Proven —  Between Circuits and Agents*
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ## Identity
 
-**CUHK-Shenzhen** (计算机工程) · **Founder of [NeuralZoo](https://neuralzoo.com.cn)** · Contributor to [ezkl](https://github.com/zkonduit/ezkl) with a merged/ongoing **PR for optional custom PWL lookup tables** (Sigmoid replacement, input-range enforcement, soundness checks).  
+**CUHK** (computer engineering) · **Founder of [NeuralZoo](https://neuralzoo.com.cn)** · Contributor to [ezkl](https://github.com/zkonduit/ezkl) with a merged/ongoing **PR for optional custom PWL lookup tables** (Sigmoid replacement, input-range enforcement, soundness checks).  
 Focus: verifiable inference, ZKML circuits, custom lookup tables, privacy-preserving inference, AI agents.
 
 ---
@@ -39,7 +39,7 @@ Focus: verifiable inference, ZKML circuits, custom lookup tables, privacy-preser
 | **Circuit** | [**zkml_lookup_experiment**](https://github.com/changshenhan/zkml_lookup_experiment) | Sigmoid lookup vs PLA: circuit size vs accuracy trade-off and metrics (e.g. 1–2 orders of magnitude with custom PWL). |
 | **Simulation** | [**STIP-MLX**](https://github.com/changshenhan/STIP-MLX) | Block-diagonal permutation so the server only sees permuted tensors; private LLM inference on Apple Silicon with MLX. |
 | **Agent** | [**relationship-consultant-agent**](https://github.com/changshenhan/relationship-consultant-agent) | Agent pipeline for structured consultation flows. |
-| — | [**awesome-zkml**](https://github.com/changshenhan/awesome-zkml) | Curated ZKML references. |
+
 
 ---
 
