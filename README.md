@@ -64,7 +64,7 @@ Focus: verifiable inference, ZKML circuits, custom lookup tables, privacy-preser
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=changshenhan&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="400" />
+<img src="https://github-readme-stats.vercel.app/api?username=changshenhan&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub Stats" width="400" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=changshenhan&layout=compact&theme=github_dark&hide_border=true&exclude_repo=changshenhan" alt="Top Languages" width="350" />
 
