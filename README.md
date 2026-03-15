@@ -76,6 +76,6 @@ Focus: verifiable inference, ZKML circuits, custom lookup tables, privacy-preser
 
 **[GitHub](https://github.com/changshenhan)** · [NeuralZoo](https://neuralzoo.com.cn)
 
-*物哀、丰饶之海 — 在可验证与不可言说之间。*
+*Wabi-sabi, Tengen — Between Verifiability and Unsayability*
 
 </div>
