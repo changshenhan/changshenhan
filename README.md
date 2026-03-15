@@ -4,51 +4,63 @@
 
 # Chang Shenhan
 
-**Zero-Knowledge ML · Privacy-Preserving Inference · Circuit-Optimized Activations**
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/changshenhan)
+### *证明可证明的 — 在电路与 agent 之间*
 
 </div>
 
 ---
 
-## About
+## Identity
 
-Contributor to **[ezkl](https://github.com/zkonduit/ezkl)** (zero-knowledge inference engine). Focus: **custom lookup tables** for Sigmoid/PWL in ZK-SNARK circuits, accuracy vs. circuit-size trade-offs, and **privacy-preserving inference** (incl. Apple Silicon–native protocols).
-
-- **ezkl**: PR for optional custom PWL lookup (JSON-defined breakpoints/slopes/intercepts); input-range enforcement and soundness checks.
-- **Experiments**: Quantile-based PWL breakpoints, Sigmoid lookup vs. PLA comparison, full prove/verify pipelines with quantified accuracy (e.g. ~1e-11 vs. true σ(x)).
-- **STIP-MLX**: Secure Tensor Inference Protocol — block-diagonal permutation for private LLM inference on Apple Silicon (MLX); server only sees permuted tensors.
+**CUHK-Shenzhen** (计算机工程) · **Founder of [NeuralZoo](https://neuralzoo.com.cn)** · Contributor to [ezkl](https://github.com/zkonduit/ezkl) with a merged/ongoing **PR for optional custom PWL lookup tables** (Sigmoid replacement, input-range enforcement, soundness checks).  
+Focus: verifiable inference, ZKML circuits, custom lookup tables, privacy-preserving inference, AI agents.
 
 ---
 
-## Tech Stack
+## Currently researching
+
+<table>
+  <tr>
+    <td width="24" align="center">🔬</td>
+    <td><strong>Secure Tensor Inference Protocol</strong> — private LLM inference; server only sees permuted tensors. (STIP-MLX, Apple Silicon / MLX)</td>
+  </tr>
+</table>
+
+---
+
+## Selected Works
+
+*By underlying logic: **Circuit** (ZK / lookup), **Agent** (structured flows), **Simulation** (privacy / inference).*
+
+| Logic | Project | Core technical challenge |
+|-------|---------|---------------------------|
+| **Circuit** | [**ezkl**](https://github.com/changshenhan/ezkl) | Pluggable PWL lookup in Halo2 circuits; JSON-defined table replaces built-in Sigmoid with input-range and soundness checks. |
+| **Circuit** | [**ezkl-custom-lookup-experiment**](https://github.com/changshenhan/ezkl-custom-lookup-experiment) | Quantile-based PWL breakpoints and full prove/verify pipeline; built-in vs custom lookup compared end-to-end. |
+| **Circuit** | [**zkml_lookup_experiment**](https://github.com/changshenhan/zkml_lookup_experiment) | Sigmoid lookup vs PLA: circuit size vs accuracy trade-off and metrics (e.g. 1–2 orders of magnitude with custom PWL). |
+| **Simulation** | [**STIP-MLX**](https://github.com/changshenhan/STIP-MLX) | Block-diagonal permutation so the server only sees permuted tensors; private LLM inference on Apple Silicon with MLX. |
+| **Agent** | [**relationship-consultant-agent**](https://github.com/changshenhan/relationship-consultant-agent) | Agent pipeline for structured consultation flows. |
+| — | [**awesome-zkml**](https://github.com/changshenhan/awesome-zkml) | Curated ZKML references. |
+
+---
+
+## Toolbox
+
+| Language | Zero-Knowledge | AI / ML | Robotics |
+|----------|----------------|---------|----------|
+| **Rust** · **TypeScript** · **Python** | Halo2 · ezkl · PWL lookup · zk-SNARKs | PyTorch · ONNX · MLX | — |
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX" />
-  <img src="https://img.shields.io/badge/MLX-000000?style=for-the-badge&logo=apple&logoColor=white" alt="MLX" />
+  <img src="https://cdn.simpleicons.org/rust/000000" width="22" height="22" />
+  <img src="https://cdn.simpleicons.org/typescript/3178C6" width="22" height="22" />
+  <img src="https://cdn.simpleicons.org/python/3776AB" width="22" height="22" />
+  <img src="https://cdn.simpleicons.org/pytorch/EE4C2C" width="22" height="22" />
+  <img src="https://cdn.simpleicons.org/onnx/005CED" width="22" height="22" />
+  <img src="https://cdn.simpleicons.org/apple/000000" width="22" height="22" />
 </p>
 
-`Halo2` · `zk-SNARKs` · `piecewise-linear approximation` · `fixed-point quantization` · `lookup tables`
-
 ---
 
-## Featured Projects
-
-| Project | Description |
-|---------|-------------|
-| [**ezkl**](https://github.com/changshenhan/ezkl) | Fork with optional custom lookup table (PWL from JSON) for Sigmoid; contributes upstream. |
-| [**ezkl-custom-lookup-experiment**](https://github.com/changshenhan/ezkl-custom-lookup-experiment) | Full pipeline: built-in vs. custom PWL Sigmoid lookup; quantile-based breakpoints; ~1.1s prove, verified. |
-| [**zkml_lookup_experiment**](https://github.com/changshenhan/zkml_lookup_experiment) | Sigmoid lookup vs. PLA comparison; metrics and accuracy analysis (e.g. 1–2 orders of magnitude improvement with custom PWL). |
-| [**STIP-MLX**](https://github.com/changshenhan/STIP-MLX) | Secure Tensor Inference Protocol — private LLM inference on Apple Silicon (Qwen2.5-3B); permuted feature space, 8GB-friendly. |
-
-
----
-
-## GitHub Stats
+## Stats
 
 <div align="center">
 
@@ -62,7 +74,8 @@ Contributor to **[ezkl](https://github.com/zkonduit/ezkl)** (zero-knowledge infe
 
 <div align="center">
 
-*Verifiable inference · Custom lookups · Privacy by design*
+**[GitHub](https://github.com/changshenhan)** · [NeuralZoo](https://neuralzoo.com.cn)
+
+*物哀、丰饶之海 — 在可验证与不可言说之间。*
 
 </div>
-
