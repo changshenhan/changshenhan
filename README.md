@@ -29,7 +29,7 @@ I write high-performance infrastructure at the seams of **protocols, agents, and
 | [**agent-transport**](https://github.com/directwire/agent-transport) | Message-oriented agent transport: single-packet round-trip, 8-level QoS, loss-resilient GRANT/SRPT scheduling over UDP. **5.2× lower P99 than TCP on short messages.** |
 | [**directwire**](https://github.com/directwire/directwire) | Rust workspace: [p2p-mesh](https://github.com/directwire/p2p-mesh) (iroh-style mesh) + [gm-pq-stack](https://github.com/directwire/gm-pq-stack) (SM2 + ML-KEM-768 hybrid transport) |
 | [**messaggero**](https://github.com/directwire/messaggero) | A2A-compatible high-performance multi-agent transport: bincode fast path over Unix sockets + A2A HTTP |
-| [**culmen**](https://github.com/directwire/culmen) | persona/v1 — a portable format for AI personas that remember, grow, and relate |
+| [**culmen**](https://github.com/directwire/culmen) | persona/v1 — a portable format for AI personas that remember, grow, and relate; runs on **Claude Code · OpenClaw · Hermes · dsh** |
 | [**fixfast**](https://github.com/directwire/fixfast) | High-performance Rust FIX/FAST reference implementation for institutional finance |
 
 ---
@@ -46,9 +46,11 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 | **semantica-agi** | [#1084](https://github.com/semantica-agi/semantica/pull/1084) | SHACL `#`-terminated namespace handling |
 | **AntigmaLabs/ante** | [#156](https://github.com/AntigmaLabs/ante/pull/156) | `Effort` rounding contract + OpenAI `reasoning_effort` mapping |
 | **zkonduit/ezkl** | [#1023](https://github.com/zkonduit/ezkl/pull/1023) / [#1021](https://github.com/zkonduit/ezkl/pull/1021) | Custom PWL lookup for nonlinear ops — **40× MAE improvement at zero proof overhead**; maintainer: *"looks interesting"* |
-| **akitaonrails/ai-memory** | [#413](https://github.com/akitaonrails/ai-memory/pull/413) | MCP `strip_root_combinators` |
+| **akitaonrails/ai-memory** | [#413](https://github.com/akitaonrails/ai-memory/pull/413) | MCP `strip_root_combinators` — **✅ merged** |
 | **EmilLindfors/a2a-rs** | [#50](https://github.com/EmilLindfors/a2a-rs/pull/50) | De-flaked ConnectRPC auth tests |
 | **agentclientprotocol/rust-sdk** | [#328](https://github.com/agentclientprotocol/rust-sdk/pull/328) | ACP session load/resume |
+| **zkonduit/LatentExchange** | [#1](https://github.com/zkonduit/LatentExchange/pull/1) | **First external PR** — Phase-1 benchmark harness for the AI-mediated barter protocol (match rate, completion, cold-start) |
+| **Dominic789654/awesome-deepseek-harness** | [#159](https://github.com/Dominic789654/awesome-deepseek-harness/pull/159) | Listed **culmen** (dsh-plugin-persona) on the official dsh plugin list — cross-runtime personality memory |
 
 ---
 
