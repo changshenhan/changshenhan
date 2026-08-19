@@ -43,6 +43,7 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 | Upstream | PR | Contribution |
 |---|---|---|
 | **nautilus_trader** (26k★) | [#4799](https://github.com/nautechsystems/nautilus_trader/pull/4799) | Fixed the silent no-op in custom-data stream conversion — regression-tested, CLA signed |
+| **barter-rs** (2.2k★) | [#284](https://github.com/barter-rs/barter-rs/pull/284) | FIX protocol framing, parser & TCP/TLS transports — **built on my own [`fix-codec`](https://crates.io/crates/fix-codec)** |
 | **semantica-agi** | [#1084](https://github.com/semantica-agi/semantica/pull/1084) | SHACL `#`-terminated namespace handling |
 | **AntigmaLabs/ante** | [#156](https://github.com/AntigmaLabs/ante/pull/156) | `Effort` rounding contract + OpenAI `reasoning_effort` mapping |
 | **zkonduit/ezkl** | [#1023](https://github.com/zkonduit/ezkl/pull/1023) / [#1021](https://github.com/zkonduit/ezkl/pull/1021) | Custom PWL lookup for nonlinear ops — **40× MAE improvement at zero proof overhead** |
