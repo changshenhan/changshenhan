@@ -42,16 +42,17 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 
 | Upstream | PR | Contribution |
 |---|---|---|
-| **nautilus_trader** (26k★) | [#4799](https://github.com/nautechsystems/nautilus_trader/pull/4799) | Fixed the silent no-op in custom-data stream conversion — regression-tested, CLA signed |
-| **barter-rs** (2.2k★) | [#284](https://github.com/barter-rs/barter-rs/pull/284) | FIX protocol framing, parser & TCP/TLS transports — **built on my own [`fix-codec`](https://crates.io/crates/fix-codec)** |
-| **semantica-agi** | [#1084](https://github.com/semantica-agi/semantica/pull/1084) | SHACL `#`-terminated namespace handling |
-| **AntigmaLabs/ante** | [#156](https://github.com/AntigmaLabs/ante/pull/156) | `Effort` rounding contract + OpenAI `reasoning_effort` mapping |
-| **zkonduit/ezkl** | [#1023](https://github.com/zkonduit/ezkl/pull/1023) / [#1021](https://github.com/zkonduit/ezkl/pull/1021) | Custom PWL lookup for nonlinear ops — **40× MAE improvement at zero proof overhead** |
+| **nautilus_trader** (26k★) | [#4799](https://github.com/nautechsystems/nautilus_trader/pull/4799) | Fixed the silent no-op in custom-data stream conversion — diagnosis confirmed by core maintainer ("spot on, both causes check out"), **CLOSED** as the old persistence path is being replaced by a new data catalog |
+| **barter-rs** (2.2k★) | [#284](https://github.com/barter-rs/barter-rs/pull/284) | FIX protocol framing, parser & TCP/TLS transports — **built on my own [`fix-codec`](https://crates.io/crates/fix-codec)** *(OPEN)* |
+| **semantica-agi** | [#1084](https://github.com/semantica-agi/semantica/pull/1084) | SHACL `#`-terminated namespace handling *(OPEN, in review)* |
+| **zkonduit/ezkl** | [#1023](https://github.com/zkonduit/ezkl/pull/1023) / [#1021](https://github.com/zkonduit/ezkl/pull/1021) | Custom PWL lookup for nonlinear ops — **40× MAE improvement at zero proof overhead** *(OPEN)* |
 | **akitaonrails/ai-memory** | [#413](https://github.com/akitaonrails/ai-memory/pull/413) | MCP `strip_root_combinators` — **✅ merged** |
-| **EmilLindfors/a2a-rs** | [#50](https://github.com/EmilLindfors/a2a-rs/pull/50) | De-flaked ConnectRPC auth tests |
-| **agentclientprotocol/rust-sdk** | [#328](https://github.com/agentclientprotocol/rust-sdk/pull/328) | ACP session load/resume |
-| **zkonduit/LatentExchange** | [#1](https://github.com/zkonduit/LatentExchange/pull/1) | **First external PR** — Phase-1 benchmark harness for the AI-mediated barter protocol (match rate, completion, cold-start) |
-| **Dominic789654/awesome-deepseek-harness** | [#159](https://github.com/Dominic789654/awesome-deepseek-harness/pull/159) | Listed **culmen** (dsh-plugin-persona) on the official dsh plugin list — cross-runtime personality memory |
+| **EmilLindfors/a2a-rs** | [#50](https://github.com/EmilLindfors/a2a-rs/pull/50) | De-flaked ConnectRPC auth tests — **✅ merged** |
+| **agentclientprotocol/rust-sdk** | [#328](https://github.com/agentclientprotocol/rust-sdk/pull/328) | ACP session load/resume *(OPEN)* |
+| **zkonduit/LatentExchange** | [#1](https://github.com/zkonduit/LatentExchange/pull/1) | **First external PR** — Phase-1 benchmark harness for the AI-mediated barter protocol (match rate, completion, cold-start) *(OPEN)* |
+| **Dominic789654/awesome-deepseek-harness** | [#159](https://github.com/Dominic789654/awesome-deepseek-harness/pull/159) | Listed **culmen** (dsh-plugin-persona) on the official dsh plugin list — cross-runtime personality memory — **✅ merged** |
+| **joaquinbejar/OrderBook-rs** (513★) | [#220](https://github.com/joaquinbejar/OrderBook-rs/pull/220) | `fix` feature — FIX protocol bridge (D/F/G messages → matching engine) on my own [`fix-codec`](https://crates.io/crates/fix-codec) *(OPEN)* |
+| **joaquinbejar/OptionStratLib** (240★) | [#426](https://github.com/joaquinbejar/OptionStratLib/pull/426) | Dividend carry bug family: 17 d1/d2 call-sites now pass `r-q`, θ discounted by `e^{-qT}` — all Greeks finite-difference verified *(OPEN)* |
 
 ---
 
