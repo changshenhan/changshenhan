@@ -42,6 +42,7 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 
 | Upstream | PR | Contribution |
 |---|---|---|
+| **tikv/tikv** (16.8k★) | [#20016](https://github.com/tikv/tikv/pull/20016) | backup-stream `last_flush_time` use-after-free → `std::sync::RwLock` (close #19968) *(OPEN)* |
 | **GreptimeTeam/greptimedb** (6.5k★) | [#8924](https://github.com/GreptimeTeam/greptimedb/pull/8924) | MySQL prepared-stmt now respects session timezone (Closes #8879) *(OPEN)* |
 | **GreptimeTeam/greptimedb** (6.5k★) | [#8925](https://github.com/GreptimeTeam/greptimedb/pull/8925) | WAL replay fail-closed — region open errors instead of silently skipping damaged WAL (Closes #8809) *(OPEN)* |
 | **GreptimeTeam/greptimedb** (6.5k★) | [#8927](https://github.com/GreptimeTeam/greptimedb/pull/8927) | Anchor pending-rows flush to batch creation time, killing the (fi, 2fi) flush lag (Closes #8641) *(OPEN)* |
