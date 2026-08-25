@@ -42,7 +42,8 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 
 | Upstream | PR | Contribution |
 |---|---|---|
-| **infiniflow/ragflow** (89k★) | [#18644](https://github.com/infiniflow/ragflow/pull/18644) | Precompile 17 regexes at package init — removes a fresh parse+compile per token/term from the retrieval hot path *(OPEN)* |
+| **infiniflow/ragflow** (89k★) | [#18644](https://github.com/infiniflow/ragflow/pull/18644) | Precompile 17 regexes at package init — removes a fresh parse+compile per token/term from the retrieval hot path — **✅ merged** |
+| **infiniflow/ragflow** (89k★) | [#18646](https://github.com/infiniflow/ragflow/pull/18646) | Closed the SubmitTo/StopWait TOCTOU race — send-on-closed-channel panic, lost in-flight tasks, and a full-queue send deadlock, all via active-sender counting *(2 commits)* — **✅ merged** |
 | **vnpy/vnpy** (44.7k★) | [#3803](https://github.com/vnpy/vnpy/pull/3803) | `cs_rank` now returns cross-sectional percentile in [0,1] (was absolute rank [1,N]) — aligns with Alpha#1 centering and `ts_rank` semantics (close #3780) *(OPEN)* |
 | **tikv/tikv** (16.8k★) | [#20016](https://github.com/tikv/tikv/pull/20016) | backup-stream `last_flush_time` use-after-free → `std::sync::RwLock` (close #19968) *(OPEN)* |
 | **GreptimeTeam/greptimedb** (6.5k★) | [#8924](https://github.com/GreptimeTeam/greptimedb/pull/8924) | MySQL prepared-stmt now respects session timezone (Closes #8879) *(OPEN)* |
