@@ -61,7 +61,7 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 | **agentclientprotocol/rust-sdk** | [#328](https://github.com/agentclientprotocol/rust-sdk/pull/328) | ACP session load/resume *(OPEN)* |
 | **zkonduit/LatentExchange** | [#1](https://github.com/zkonduit/LatentExchange/pull/1) | **First external PR** — Phase-1 benchmark harness for the AI-mediated barter protocol (match rate, completion, cold-start) *(OPEN)* |
 | **Dominic789654/awesome-deepseek-harness** | [#159](https://github.com/Dominic789654/awesome-deepseek-harness/pull/159) | Listed **culmen** (dsh-plugin-persona) on the official dsh plugin list — cross-runtime personality memory — **✅ merged** |
-| **joaquinbejar/OrderBook-rs** (513★) | [#220](https://github.com/joaquinbejar/OrderBook-rs/pull/220) | `fix` feature — FIX protocol bridge (D/F/G messages → matching engine) on my own [`fix-codec`](https://crates.io/crates/fix-codec) *(OPEN)* |
+| **joaquinbejar/OrderBook-rs** (513★) | [#220](https://github.com/joaquinbejar/OrderBook-rs/pull/220) | FIX bridge prototype — CLOSED on scoping (engine stays codec-free; project has its own [IronFix](https://github.com/joaquinbejar/IronFix)); maintainer offered a roadmap for a standalone bridge crate |
 | **joaquinbejar/OptionStratLib** (240★) | [#426](https://github.com/joaquinbejar/OptionStratLib/pull/426) | Dividend carry bug family: 17 d1/d2 call-sites now pass `r-q`, θ discounted by `e^{-qT}` — all Greeks finite-difference verified — **✅ merged** |
 
 ---
