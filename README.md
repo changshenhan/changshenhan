@@ -10,6 +10,8 @@
 
 </div>
 
+**⭐ Featured: [mist](https://github.com/changshenhan/mist)** — settlement for the agent economy, live on Base mainnet · [gas ledger](https://github.com/changshenhan/mist/blob/main/docs/articles/02-x402-gas-ledger-en.md) · 488,738 payments/s
+
 ---
 
 ## Who I am
