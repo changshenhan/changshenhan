@@ -66,11 +66,23 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 
 ---
 
+## Mist — settlement for the agent economy
+
+> *Agents will pay each other at machine volume. One transaction per payment doesn't survive that.*
+
+[**mist**](https://github.com/changshenhan/mist) is a Delegated Spend Authority (DSA) authorization primitive + optimistic batch-settlement aggregator — **live on Base mainnet**:
+
+- **Measured, not claimed**: an x402 payment costs 61,105–90,053 gas today; Mist amortizes settlement to **(246k + 78,958×R)/N per payment — 325 gas at N=1,000, R=1 (188× cheaper)**, honest negative cases included — full [gas ledger](https://github.com/changshenhan/mist/blob/main/docs/articles/02-x402-gas-ledger-en.md), every command reproducible
+- **488,738 payments/s** measured in-process ingest, CI performance-gated on every push
+- Contracts **deployed and exercised on Base mainnet** (commit → settle → 6-hour challenge window → claim), open source and permissionless — deploy your own `BatchSettler` and self-register
+- x402 adapter: `mist-v1` scheme, EIP-3009 bridge, v1+v2 wire formats
+
+---
+
 ## Personal projects
 
 | Project | What it is |
 |---|---|
-| [**meridian**](https://github.com/changshenhan/meridian) | Agent economy infrastructure — settlement and trust rails for machine commerce (DSA authorization + settlement aggregation) |
 | [**AI-Decentralized-Autonomous-Economy**](https://github.com/changshenhan/AI-Decentralized-Autonomous-Economy) | AIDE — an AI decentralized autonomous economy (research) |
 | [**ANAI**](https://github.com/changshenhan/ANAI) | Native Android AI assistant (Kotlin, Jetpack Compose, Room) |
 | [**STIP-MLX**](https://github.com/changshenhan/STIP-MLX) | Private LLM inference on Apple Silicon — the server only ever sees permuted tensors |
