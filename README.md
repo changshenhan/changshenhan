@@ -46,11 +46,15 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 |---|---|---|
 | **infiniflow/ragflow** (89k★) | [#18644](https://github.com/infiniflow/ragflow/pull/18644) | Precompile 17 regexes at package init — removes a fresh parse+compile per token/term from the retrieval hot path — **✅ merged** |
 | **infiniflow/ragflow** (89k★) | [#18646](https://github.com/infiniflow/ragflow/pull/18646) | Closed the SubmitTo/StopWait TOCTOU race — send-on-closed-channel panic, lost in-flight tasks, and a full-queue send deadlock, all via active-sender counting *(2 commits)* — **✅ merged** |
+| **infiniflow/ragflow** (89k★) | [#18648](https://github.com/infiniflow/ragflow/pull/18648) | Chunker: one BPE pass per hardSplitPiece iteration instead of two — Text 1.8×, CJK 2.0×, fewer allocations; differential test pins byte-for-byte equivalence *(OPEN)* |
+| **fatedier/frp** (109k★) | [#5505](https://github.com/fatedier/frp/pull/5505) | nathole: multi-STUN discovery with per-server fallback — multi-server configs previously died on the first unreachable server (close #5504) *(OPEN)* |
+| **pingcap/tidb** (40k★) | [#70616](https://github.com/pingcap/tidb/pull/70616) | Backported the #66897 planner fix to release-8.5 — IN-subquery join+agg duplication with implicitly casted keys returned wrong results (repro for #70546) *(OPEN)* |
 | **vnpy/vnpy** (44.7k★) | [#3803](https://github.com/vnpy/vnpy/pull/3803) | `cs_rank` now returns cross-sectional percentile in [0,1] (was absolute rank [1,N]) — aligns with Alpha#1 centering and `ts_rank` semantics (close #3780) *(OPEN)* |
 | **tikv/tikv** (16.8k★) | [#20016](https://github.com/tikv/tikv/pull/20016) | backup-stream `last_flush_time` use-after-free → `std::sync::RwLock` (close #19968) *(OPEN)* |
 | **GreptimeTeam/greptimedb** (6.5k★) | [#8924](https://github.com/GreptimeTeam/greptimedb/pull/8924) | MySQL prepared-stmt now respects session timezone (Closes #8879) — **CLOSED**, superseded by [#8923](https://github.com/GreptimeTeam/greptimedb/pull/8923) |
 | **GreptimeTeam/greptimedb** (6.5k★) | [#8925](https://github.com/GreptimeTeam/greptimedb/pull/8925) | WAL replay fail-closed — region open errors instead of silently skipping damaged WAL (Closes #8809) *(OPEN)* |
 | **GreptimeTeam/greptimedb** (6.5k★) | [#8927](https://github.com/GreptimeTeam/greptimedb/pull/8927) | Anchor pending-rows flush to batch creation time, killing the (fi, 2fi) flush lag (Closes #8641) *(OPEN)* |
+| **milvus-io/milvus** (46k★) | [#52759](https://github.com/milvus-io/milvus/pull/52759) / [#52760](https://github.com/milvus-io/milvus/pull/52760) | TEI rerank test tolerance; proxy metrics cleanup via `DeletePartialMatch` — **CLOSED**, superseded by #52742 / #52691 (same fixes, merged) |
 | **nautilus_trader** (26k★) | [#4799](https://github.com/nautechsystems/nautilus_trader/pull/4799) | Fixed the silent no-op in custom-data stream conversion — diagnosis confirmed by core maintainer ("spot on, both causes check out"), **CLOSED** as the old persistence path is being replaced by a new data catalog |
 | **barter-rs** (2.2k★) | [#284](https://github.com/barter-rs/barter-rs/pull/284) | FIX protocol framing, parser & TCP/TLS transports — **built on my own [`fix-codec`](https://crates.io/crates/fix-codec)** *(OPEN)* |
 | **semantica-agi** | [#1084](https://github.com/semantica-agi/semantica/pull/1084) | SHACL `#`-terminated namespace handling — **✅ merged** |
@@ -60,11 +64,13 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 | **akitaonrails/ai-memory** | [#413](https://github.com/akitaonrails/ai-memory/pull/413) | MCP `strip_root_combinators` — **✅ merged** |
 | **EmilLindfors/a2a-rs** | [#50](https://github.com/EmilLindfors/a2a-rs/pull/50) | De-flaked ConnectRPC auth tests — **✅ merged** |
 | **infinitefield/hypersdk** (211★) | [#80](https://github.com/infinitefield/hypersdk/pull/80) | Market orders now send `FrontendMarket` (were GTC — silent no-fill); `PriceTick::tick_for` correct at powers of ten — **✅ merged** |
-| **agentclientprotocol/rust-sdk** | [#328](https://github.com/agentclientprotocol/rust-sdk/pull/328) | ACP session load/resume *(OPEN)* |
+| **agentclientprotocol/rust-sdk** | [#328](https://github.com/agentclientprotocol/rust-sdk/pull/328) | ACP v1 session load/resume restore builders — **CLOSED**: maintainer shipped the same builders in [#347](https://github.com/agentclientprotocol/rust-sdk/pull/347) |
 | **zkonduit/LatentExchange** | [#1](https://github.com/zkonduit/LatentExchange/pull/1) | **First external PR** — Phase-1 benchmark harness for the AI-mediated barter protocol (match rate, completion, cold-start) *(OPEN)* |
 | **Dominic789654/awesome-deepseek-harness** | [#159](https://github.com/Dominic789654/awesome-deepseek-harness/pull/159) | Listed **culmen** (dsh-plugin-persona) on the official dsh plugin list — cross-runtime personality memory — **✅ merged** |
 | **joaquinbejar/OrderBook-rs** (513★) | [#220](https://github.com/joaquinbejar/OrderBook-rs/pull/220) → [**ironfix-orderbook-bridge**](https://github.com/directwire/ironfix-orderbook-bridge) | FIX bridge PR closed on scoping (engine stays codec-free); rebuilt per the maintainer's preferred shape as a standalone crate implementing IronFix's `Application` trait — per-session ClOrdID registry (cross-client cancel exposure closed), single fill path via trade listener, zero-float translation, replayable `execute()`; maintainer notified on the thread |
 | **joaquinbejar/OptionStratLib** (240★) | [#426](https://github.com/joaquinbejar/OptionStratLib/pull/426) | Dividend carry bug family: 17 d1/d2 call-sites now pass `r-q`, θ discounted by `e^{-qT}` — all Greeks finite-difference verified — **✅ merged** |
+| **x402-foundation/x402** | [#3321](https://github.com/x402-foundation/x402/pull/3321) | Mist listed in third-party extensions — mist-v1 scheme + EIP-3009 bridge *(OPEN)* |
+| **google-agentic-commerce/a2a-x402** | [#172](https://github.com/google-agentic-commerce/a2a-x402/pull/172) | `scheme_exact_mist` payment scheme spec draft (exact/EIP-3009 byte-compatible) *(OPEN)* |
 
 ---
 
