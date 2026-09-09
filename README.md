@@ -53,7 +53,7 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 | **tikv/tikv** (16.8k★) | [#20016](https://github.com/tikv/tikv/pull/20016) | backup-stream `last_flush_time` use-after-free → `std::sync::RwLock` (close #19968) *(OPEN)* |
 | **GreptimeTeam/greptimedb** (6.5k★) | [#8924](https://github.com/GreptimeTeam/greptimedb/pull/8924) | MySQL prepared-stmt now respects session timezone (Closes #8879) — **CLOSED**, superseded by [#8923](https://github.com/GreptimeTeam/greptimedb/pull/8923) |
 | **GreptimeTeam/greptimedb** (6.5k★) | [#8925](https://github.com/GreptimeTeam/greptimedb/pull/8925) | WAL replay fail-closed — region open errors instead of silently skipping damaged WAL (Closes #8809) *(OPEN)* |
-| **GreptimeTeam/greptimedb** (6.5k★) | [#8927](https://github.com/GreptimeTeam/greptimedb/pull/8927) | Anchor pending-rows flush to batch creation time, killing the (fi, 2fi) flush lag (Closes #8641) *(OPEN)* |
+| **GreptimeTeam/greptimedb** (6.5k★) | [#8927](https://github.com/GreptimeTeam/greptimedb/pull/8927) | Anchor pending-rows flush to batch creation time, killing the (fi, 2fi) flush lag (Closes #8641) — superseded by upstream #8802 *(CLOSED)* |
 | **milvus-io/milvus** (46k★) | [#52759](https://github.com/milvus-io/milvus/pull/52759) / [#52760](https://github.com/milvus-io/milvus/pull/52760) | TEI rerank test tolerance; proxy metrics cleanup via `DeletePartialMatch` — **CLOSED**, superseded by #52742 / #52691 (same fixes, merged) |
 | **nautilus_trader** (26k★) | [#4799](https://github.com/nautechsystems/nautilus_trader/pull/4799) | Fixed the silent no-op in custom-data stream conversion — diagnosis confirmed by core maintainer ("spot on, both causes check out"), **CLOSED** as the old persistence path is being replaced by a new data catalog |
 | **barter-rs** (2.2k★) | [#284](https://github.com/barter-rs/barter-rs/pull/284) | FIX protocol framing, parser & TCP/TLS transports — **built on my own [`fix-codec`](https://crates.io/crates/fix-codec)** *(OPEN)* |
@@ -71,8 +71,8 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 | **joaquinbejar/OptionStratLib** (240★) | [#426](https://github.com/joaquinbejar/OptionStratLib/pull/426) | Dividend carry bug family: 17 d1/d2 call-sites now pass `r-q`, θ discounted by `e^{-qT}` — all Greeks finite-difference verified — **✅ merged** |
 | **x402-foundation/x402** | [#3321](https://github.com/x402-foundation/x402/pull/3321) | Mist listed in third-party extensions — mist-v1 scheme + EIP-3009 bridge *(OPEN)* |
 | **google-agentic-commerce/a2a-x402** | [#172](https://github.com/google-agentic-commerce/a2a-x402/pull/172) | `scheme_exact_mist` payment scheme spec draft (exact/EIP-3009 byte-compatible) *(OPEN)* |
-| **QuantumNous/new-api** (11w★) | [#7274](https://github.com/QuantumNous/new-api/pull/7274) | realtime (wss) double charge closed — per-segment pre-billing and session-end settlement now reconcile via incremental bookkeeping; users were being charged ~2× (fixes #7273) *(OPEN)* |
-| **QuantumNous/new-api** (11w★) | [#7276](https://github.com/QuantumNous/new-api/pull/7276) | Multi-key polling no longer persists a stale snapshot over `channel_info` — concurrent auto-disables were silently resurrected (fixes #7275) *(OPEN)* |
+| **QuantumNous/new-api** (11w★) | [#7274](https://github.com/QuantumNous/new-api/pull/7274) | realtime (wss) double charge closed — per-segment pre-billing and session-end settlement now reconcile via incremental bookkeeping; users were being charged ~2× (fixes #7273) *(CLOSED — template-format, refiling)* |
+| **QuantumNous/new-api** (11w★) | [#7276](https://github.com/QuantumNous/new-api/pull/7276) | Multi-key polling no longer persists a stale snapshot over `channel_info` — concurrent auto-disables were silently resurrected (fixes #7275) *(CLOSED — template-format, refiling)* |
 
 ---
 
