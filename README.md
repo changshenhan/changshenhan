@@ -75,7 +75,7 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 | **QuantumNous/new-api** (11w★) | [#7276](https://github.com/QuantumNous/new-api/pull/7276) | Multi-key polling no longer persists a stale snapshot over `channel_info` — concurrent auto-disables were silently resurrected (fixes #7275) *(CLOSED — template-format, refiling)* |
 | **rustdesk/rustdesk** (123k★) | [#16143](https://github.com/rustdesk/rustdesk/pull/16143) | quinn-proto 0.11.15 — two QUIC DoS advisories (RUSTSEC-2026-0037/-0185) — plus bytes 1.11.1 & crossbeam-epoch 0.9.20, Cargo.lock-only — **✅ merged** (same-day) |
 | **meilisearch/meilisearch** (59.2k★) | [#6627](https://github.com/meilisearch/meilisearch/pull/6627) | h2 → 0.4.17 (RUSTSEC-2026-0258 HTTP/2 DoS) + crossbeam-epoch 0.9.20, Cargo.lock-only *(OPEN)* |
-| **databendlabs/databend** (9.4k★) | [#20472](https://github.com/databendlabs/databend/pull/20472) | h2 0.4.17 + quinn-proto + crossbeam-epoch + lz4_flex 0.11.6 — four RUSTSEC-2026 advisories, Cargo.lock-only *(OPEN — approved by sundy-li, CI green)* |
+| **databendlabs/databend** (9.4k★) | [#20472](https://github.com/databendlabs/databend/pull/20472) | h2 0.4.17 + quinn-proto + crossbeam-epoch + lz4_flex 0.11.6 — four RUSTSEC-2026 advisories, Cargo.lock-only *(OPEN — approved by sundy-li; CI rerun pending on runner infra)* |
 | **risingwavelabs/risingwave** (9.3k★) | [#27024](https://github.com/risingwavelabs/risingwave/pull/27024) | rustls-webpki 0.103.13 closes four TLS-verification advisories + lru 0.18.2 + h2 0.4.17, Cargo.lock-only *(OPEN — approved)* |
 
 ---
