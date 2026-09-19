@@ -77,7 +77,7 @@ I deliberately place first bricks into young ecosystems — work that yields **d
 | **meilisearch/meilisearch** (59.2k★) | [#6627](https://github.com/meilisearch/meilisearch/pull/6627) | h2 → 0.4.17 (RUSTSEC-2026-0258 HTTP/2 DoS) + crossbeam-epoch 0.9.20 — extended in-branch by meilisearch author Kerollmops (crossbeam-channel bump) *(OPEN)* |
 | **databendlabs/databend** (9.4k★) | [#20472](https://github.com/databendlabs/databend/pull/20472) | h2 0.4.17 + quinn-proto + crossbeam-epoch + lz4_flex 0.11.6 — four RUSTSEC-2026 advisories, Cargo.lock-only — **✅ merged** |
 | **risingwavelabs/risingwave** (9.3k★) | [#27024](https://github.com/risingwavelabs/risingwave/pull/27024) | rustls-webpki 0.103.13 closes four TLS-verification advisories + lru 0.18.2 + h2 0.4.17, Cargo.lock-only *(OPEN — approved)* |
-| **infiniflow/ragflow** (89k★) | [#19712](https://github.com/infiniflow/ragflow/pull/19712) | chunker hardSplitPiece O(L²)→O(L): encode once, walk the token array — text 2.46×, CJK 3.49×, byte-lossless, tag-safe cuts *(OPEN)* |
+| **infiniflow/ragflow** (89k★) | [#19712](https://github.com/infiniflow/ragflow/pull/19712) | chunker hardSplitPiece O(L²)→O(L): encode once, walk the token array — text 2.46×, CJK 3.49×, byte-lossless, tag-safe cuts — **✅ merged same-day** (LGTM by the #17973 author, ~3h filing-to-merge) |
 
 ---
 
